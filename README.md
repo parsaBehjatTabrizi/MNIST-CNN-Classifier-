@@ -23,10 +23,13 @@ This repository contains code to train a Convolutional Neural Network (CNN) on t
 
 The code is designed to run in a Google Colab environment but can be adapted for local execution. Ensure the following libraries are installed:
 
-- TensorFlow
-- Google Colab
+- TensorFlow : tensorflow: Required for building, training, and evaluating the CNN model.
+- Google Colab : numpy: Used for numerical computations and array manipulations.
 - NumPy
 - Logging
+- xgboost: (Optional, from earlier examples) Needed if you’re using XGBoost in other parts of the project.
+- learn: Useful for preprocessing data, train-test splitting, and evaluation metrics.
+- matplotlib: Needed if you're plotting feature importance or evaluation graphs.
 
 To install the required libraries:
 ```bash

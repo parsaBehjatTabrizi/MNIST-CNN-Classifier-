@@ -1,0 +1,10 @@
+tensorflow>=2.4.0
+xgboost>=1.5.0
+numpy>=1.19.2
+scikit-learn>=0.24.0
+matplotlib>=3.3.4
+tensorflow: Required for building, training, and evaluating the CNN model.
+xgboost: (Optional, from earlier examples) Needed if you’re using XGBoost in other parts of the project.
+numpy: Used for numerical computations and array manipulations.
+scikit-learn: Useful for preprocessing data, train-test splitting, and evaluation metrics.
+matplotlib: Needed if you're plotting feature importance or evaluation graphs.

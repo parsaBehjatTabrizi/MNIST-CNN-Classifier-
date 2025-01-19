@@ -61,6 +61,21 @@ pip install tensorflow
    - Download the trained model directly for use in other applications.
 
 ---
+##Model training
+```bash
+def build_model():
+    model = models.Sequential([
+        layers.Conv2D(32, kernel_size=(3, 3), activation="relu", input_shape=(IMG_HEIGHT, IMG_WIDTH, 1)),
+        layers.MaxPooling2D(pool_size=(2, 2)),
+        layers.Conv2D(64, (3, 3), activation="relu"),
+        layers.MaxPooling2D(pool_size=(2, 2)),
+        layers.Flatten(),
+        layers.Dense(128, activation="relu"),
+        layers.Dense(NUM_CLASSES, activation="softmax"),
+    ])
+    model.compile(optimizer="adam", loss="categorical_crossentropy", metrics=["accuracy"])
+    return model
+```
 
 ## Example Workflow
 

@@ -1,4 +1,4 @@
-# MNIST-CNN-Classifier-
+# MNIST CNN Classifier
 CNN Model Classifier on MNIST Data
 # MNIST CNN Training
 

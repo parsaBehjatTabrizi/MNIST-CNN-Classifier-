@@ -76,7 +76,7 @@ def build_model():
     model.compile(optimizer="adam", loss="categorical_crossentropy", metrics=["accuracy"])
     return model
 ```
-
+---
 ## Example Workflow
 
 1. **Load and Preprocess Data**:
